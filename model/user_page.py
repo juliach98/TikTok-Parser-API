@@ -44,9 +44,3 @@ class UserPage:
         import json
 
         return json.dumps(self, default=lambda o: o.__dict__)
-
-
-user_page = UserPage()
-
-jsn = user_page.to_json()
-jsn
