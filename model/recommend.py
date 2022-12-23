@@ -19,8 +19,3 @@ class Recommend:
         import json
 
         return json.dumps(self, default=lambda o: o.__dict__)
-
-r = Recommend()
-
-r
-r
