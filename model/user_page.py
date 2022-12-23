@@ -6,7 +6,7 @@ class Video:
 
 
 class UserPage:
-    def __init__(self, account='dream_team_house'):
+    def __init__(self, account):
         from selenium import webdriver
         from selenium.webdriver.common.by import By
         from selenium.webdriver.chrome.options import Options
